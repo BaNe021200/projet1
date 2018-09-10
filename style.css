@@ -1,23 +1,4 @@
-@font-face {
-  font-family: 'GLYFICONS Halflings';
-  src: url('fonts/glyphicons-halflings-regular.eot');
-  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-  	   url('fonts/glyphicons-halflings-regular.woff')  format('woff'), 
-  	   url('fonts/glyphicons-halflings-regular.ttf')  	format('truetype'), 
-  	   url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-}
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('fonts/fontawesome-webfont.eot?v=4.6.3');
-  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), 
-  	   /*url('fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),*/
-  	   url('fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), 
-  	   url('fonts/fontawesome-webfont.ttf') format('truetype');
-  	  /* url('fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');*/
-  font-weight: normal;
-  font-style: normal;
-}
 *{
 	box-sizing: border-box;
 }
@@ -233,7 +214,7 @@ nav a
 		margin: 14.4px auto 6vh auto;
 	}
 
-.fa-cubes, .fa-pie-chart, .fa-line-chart
+.fa-cubes, .fa-chart-pie, .fa-chart-line
 	{
 		color:#5CACD2;
 		display: flex;
